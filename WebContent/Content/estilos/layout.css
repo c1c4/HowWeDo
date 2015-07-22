@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+element.style {
+    margin: 5px;
+    width: 1325px;
+}
+
+element.style {
+    cursor: default;
+}
+
+body {
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+}
+
+#scRightHeader, #qbRightHeader, #obRightHeader {
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #CCCCCC;
+    height: 25px;
+}
+
+.dbaseFrameHolder {
+    background-color: #FFFFFF;
+}
+
+#ob_ObjectsDetail {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 1px 0;
+    text-align: center;
+}
+
+#SqlAndResults, #obTable {
+    border: 1px solid #AAAAAA;
+}
+
+.htmldbNewBottom {
+    background-color: #E6E7E7;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 10px;
+    padding: 2px 0;
+}
+
+.htmldbNewBottom1 {
+    float: left;
+    font-size: 10px;
+    padding: 0 0 0 10px;
+}
+
+.htmldbNewBottom2 {
+    float: right;
+    font-size: 10px;
+    padding: 0 10px 0 0;
+}
+
+table.htmldbStandard1 td {
+    background-color: #7B68EE;
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 9px;
+    text-transform: capitalize;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+table.htmldbMinReport th, table.htmldbStandard3 th {
+    background-color: #CFDCCF;
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #FFFFFF;
+    color: #3F863F;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 9px;
+    text-transform: capitalize;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+table.htmldbMinReport, table.htmldbStandard3 {
+    border: 1px solid #AAAAAA;
+}
+
+table.htmldbMinReport td, table.htmldbStandard3 td {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+    empty-cells: show;
+    font-size: 8pt;
+    padding: 3px 9px;
+}
+
+.htmldbFD, .htmldbFieldData, .fielddata {
+    color: #000000;
+    font-size: 10pt;
+}
+
+td {
+    padding: 0;
+}
+
+input.htmldbButton {
+    font-weight: bold;
+    margin: 2px 5px;
+    padding: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.htmldbNotification {
+    background-color: #DDDDDD;
+    border: 1px solid #AAAAAA;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    width: 600px;
+}
+
+table.htmldbWizard {
+    border: 1px solid #AAAAAA;
+    margin: 0 0 20px;
+    width: 600px;
+}

@@ -1,0 +1,156 @@
+Dto@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+.containerMenu{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	position: absolute;
+	background-color: #E6E7E7;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+	left: 10px;
+	width: 98%;
+}
+
+.menu {
+	position: absolute;
+	top: 25px;
+	left: 8px;
+	margin-bottom: 22px;
+	margin-top: 2px;
+	margin-left:2px;
+	width: 20%;
+	height: 90%;
+	border-right: 1px solid black;
+	float: left;
+	overflow: auto
+}
+
+.htmldbNewBottom1 {
+	float: left;
+	font-size: 12px;
+	padding: 0 0 0 10px;
+}
+
+.htmldbNewBottom2 {
+	float: right;
+	font-size: 10px;
+	padding: 0 10px 0 0;
+}
+
+.tituloMenu {
+	background: #EEB4B4;
+	font-size: 15px;
+	font-family: Arial;
+	width: 100%;
+	text-align: center;
+}
+
+#content{
+	position: absolute;
+	top: 25px;
+	left:300px;
+}
+
+.footer {
+	background-color: #E6E7E7;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 98%;
+}
+
+ul {
+	font-size: 12px;
+}
+
+.htmldbNotification {
+    background-color: #DDDDDD;
+    border: 1px solid #AAAAAA;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    width: 600px;
+}
+
+
+#obTable {
+    border: 1px solid #AAAAAA;
+    size: 100%;
+}
+
+.tituloCadastro {
+	background: #90EE90;
+	font-size: 15px;
+	font-family: Arial;
+	width: 100%;
+	text-align: center;
+}
+
+
+table.htmldbStandard3 th {
+    background-color: #CFDCCF;
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #FFFFFF;
+    color: #3F863F;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 9px;
+    text-transform: capitalize;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+table.htmldbStandard3 {
+    border: 1px solid #AAAAAA;
+}
+
+table.htmldbStandard3 td {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #FFFFFF;
+    empty-cells: show;
+    font-size: 8pt;
+    padding: 3px 9px;
+}
+
+.htmldbFD {
+    color: #000000;
+    font-size: 10pt;
+    text-align: right;
+}
+
+input.htmldbButton {
+    font-weight: bold;
+    margin: 2px 5px;
+    padding: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dbaseFrameHolder {
+    background-color: #FFFFFF;
+}
+
+
+#scRightHeader, #qbRightHeader, #obRightHeader {
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #CCCCCC;
+    height: 25px;
+}
